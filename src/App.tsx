@@ -43,8 +43,6 @@ function App() {
     }
   }, [guessedLetters])
 
-  console.log(wordToGuess, guessedLetters);
-  
   return (
       <Div>
         <div style={{fontSize: "2rem", textAlign: "center"}}>
