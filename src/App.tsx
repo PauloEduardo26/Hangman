@@ -51,7 +51,7 @@ function App() {
           {isWinner && "Venceu Viado - Refresh to start again"}
           {isLoser && "Perdeu Jegue - Refresh to start again"}
         </div>
-
+        {/* Nao sei o pq do vermelhin */}
         <HangmanDrawing numberOfGuesses={incorrectLetters.length} />
         <HangmanWord reveal={isLoser} guessedLetters={guessedLetters} wordToGuess={wordToGuess}/>
         <div style={{alignSelf: "stretch"}}>
